@@ -98,7 +98,7 @@ const reDelete = (id, carrito) => {
         }
         eliminar(carrito, idCompra);
         if (carrito.length == 0) {
-            alert(`Ya no tienes tienes productos en el carrito, actualiza la página y vuelve a comprar`);
+            alert(`Ya no tienes productos en el carrito, actualiza la página y vuelve a comprar`);
             carritoVacio = true;
             return;
 
@@ -158,7 +158,7 @@ const compras = () => {
         }
         eliminar(carrito, id);
         if (carrito.length == 0) {
-            alert(`Ya no tienes tienes productos en el carrito, actualiza la página y vuelve a comprar`)
+            alert(`Ya no tienes productos en el carrito, actualiza la página y vuelve a comprar`)
             return;
         }
         let reEliminar = prompt(`Desea eliminar otro producto de la lista?\n \n 1 -(Si)\n 2 -(No)`)
